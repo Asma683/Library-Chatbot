@@ -1,0 +1,217 @@
+---
+name: Academic Intelligence
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#44474e'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#75777f'
+  outline-variant: '#c5c6cf'
+  surface-tint: '#4d5e81'
+  primary: '#000d26'
+  on-primary: '#ffffff'
+  primary-container: '#102342'
+  on-primary-container: '#798baf'
+  inverse-primary: '#b5c7ee'
+  secondary: '#0051d5'
+  on-secondary: '#ffffff'
+  secondary-container: '#316bf3'
+  on-secondary-container: '#fefcff'
+  tertiary: '#00110f'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#002925'
+  on-tertiary-container: '#1e9b8f'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d7e2ff'
+  primary-fixed-dim: '#b5c7ee'
+  on-primary-fixed: '#061b3a'
+  on-primary-fixed-variant: '#354768'
+  secondary-fixed: '#dbe1ff'
+  secondary-fixed-dim: '#b4c5ff'
+  on-secondary-fixed: '#00174b'
+  on-secondary-fixed-variant: '#003ea8'
+  tertiary-fixed: '#89f5e7'
+  tertiary-fixed-dim: '#6bd8cb'
+  on-tertiary-fixed: '#00201d'
+  on-tertiary-fixed-variant: '#005049'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  display-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+  code:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes an authoritative yet inviting digital environment tailored for higher education scholarship, university library research, and contextual academic inquiry. The identity balances the institutional prestige of a historic research university with the frictionless precision of an advanced generative AI assistant. 
+
+The aesthetic is Modern Scholarly Minimalism with tactile depth:
+- **Atmosphere:** Rigorous, reliable, tranquil, and scholarly. The interface recedes into the background, prioritizing complex citations, full-text reading, and conversational dialogue.
+- **Visual Tenets:** Generous whitespace, structural alignment, subtle glass layers for persistent navigation, crisp micro-borders, and high-legibility typographic hierarchies.
+- **Target Audience:** University students, doctoral researchers, faculty members, and research librarians requiring trustworthy synthesis, academic citation transparency, and focus-driven study workflows.
+
+## Colors
+
+The color palette anchors on deep institutional navy, energetic royal indigo accents, and tranquil neutral grays.
+
+- **Primary (`#102342` - Oxford Navy):** Represents institutional credibility, authority, and grounding. Applied to primary headings, user query message bubbles, prominent CTAs, and active navigation nodes.
+- **Secondary (`#2563EB` - Royal Scholar Blue):** Represents computational intelligence and clarity. Used for conversational highlights, citation badges, action triggers, text links, and focus rings.
+- **Tertiary (`#0D9488` - Academic Teal):** Used for verified source indicators, peer-reviewed collection badges, and completed state cues.
+- **Neutral Palette:**
+  - Canvas background: `#F8FAFC` (Slate 50) creates a calm, glare-free working plane.
+  - Surface cards & Assistant message bubbles: `#FFFFFF` (Crisp White).
+  - Sidebar & Secondary surfaces: `#F1F5F9` (Slate 100).
+  - Borders & Dividers: `#E2E8F0` (Slate 200).
+  - Body text: `#1E293B` (Slate 800) for contrast and reading endurance.
+  - Muted metadata & timestamps: `#64748B` (Slate 500).
+
+## Typography
+
+The typographic pairing bridges forward-thinking clarity with scholarly precision:
+- **Headlines (Plus Jakarta Sans):** Selected for its contemporary geometry and confident presence. It gives prompts, headers, and section leads a modern technological voice without feeling detached or clinical.
+- **Body & Labels (Inter):** Highly legible across long-form synthesis, citation excerpts, abstract snippets, and dense table views. The tall x-height minimizes fatigue during research sessions.
+- **Code & Citations (JetBrains Mono):** Monospaced figures and code snippets use JetBrains Mono for DOI links, Call Numbers, ISBN strings, and data syntax.
+
+## Layout & Spacing
+
+The layout balances a persistent reference pane with an uncluttered central conversational workspace:
+
+- **Desktop Structure:** A fixed-width collateral sidebar (`280px`) houses catalog shortcuts, active research threads, and pinned bibliographies. The conversational thread is centered within a maximum read width of `860px` to maintain optimal line lengths.
+- **Tablet Structure:** Sidebar collapses into an overlay drawer or a slim icon bar (`64px`). Margins contract to `1.5rem`.
+- **Mobile Structure:** Single-column stacked fluid layout with full-width conversational stream, sticky top app bar, and anchored bottom prompt bar.
+- **Vertical Rhythm:** 4px baseline sub-grid with consistent component gaps defined through strict token assignments (`space-xs` through `space-xl`).
+
+## Elevation & Depth
+
+Visual hierarchy uses a refined hybrid of tonal staging, micro-borders, and diffused ambient shadows:
+
+- **Tonal Layers:** The canvas rests at `#F8FAFC`. Chat surfaces, answer blocks, and cards elevate onto `#FFFFFF` equipped with a hairline border (`1px solid #E2E8F0`).
+- **Ambient Shadows:**
+  - *Resting Cards / AI Responses:* `0 1px 3px rgba(16, 35, 66, 0.04), 0 1px 2px rgba(16, 35, 66, 0.02)`.
+  - *Active Popovers / Citation Previews / Dropdowns:* `0 10px 25px -5px rgba(16, 35, 66, 0.08), 0 8px 10px -6px rgba(16, 35, 66, 0.04)`.
+  - *Floating Composer Box:* `0 12px 32px -4px rgba(16, 35, 66, 0.06), 0 4px 12px -2px rgba(16, 35, 66, 0.03)`.
+- **Glassmorphic Accents:** Sticky header bars and floating bottom composer backdrops apply `backdrop-filter: blur(12px)` over `rgba(248, 250, 252, 0.85)` with a subtle bottom divider.
+
+## Shapes
+
+The design system implements a refined rounded aesthetic (`roundedness: 2` / base `8px`), lending a polished and contemporary feel while preserving structural seriousness:
+
+- **Micro Components (Chips, Badges, Citations):** `6px` to `8px` corner radius.
+- **Input Fields & Buttons:** `8px` to `10px` for structured, comfortable click targets.
+- **Assistant Response Containers & Cards:** `12px` to `16px` (`rounded-lg`).
+- **Conversational User Bubbles:** Asymmetric rounding with `16px` overall and a reduced `4px` radius at the bottom-right anchor.
+- **Search & Floating Prompt Bar:** `20px` to `24px` for an approachable, natural conversational input.
+
+## Components
+
+- **Conversational Bubbles:**
+  - *User Bubble:* Right-aligned, `#102342` solid background, `#FFFFFF` text, `16px` padding, asymmetric rounding (`16px 16px 4px 16px`).
+  - *AI Assistant Bubble:* Left-aligned, `#FFFFFF` crisp card, `1px solid #E2E8F0` border, `20px` padding, `16px` uniform rounding, paired with a small institutional crest/bot mark.
+- **Input Composer (Chat Prompt Bar):**
+  - Floating container with full-width interior field, pill-inspired contour (`24px`), soft elevation shadow, quick-action attachment and source filter icons, accompanied by a circular navy submit button with royal blue hover transitions.
+- **Buttons:**
+  - *Primary:* `#102342` background, white label, `8px` radius, hover state transitions to `#1E3A5F`.
+  - *Secondary / Accent:* `#2563EB` background with white label for direct search actions.
+  - *Outline / Ghost:* `1px solid #E2E8F0`, transparent background, `#102342` text; hover reveals `#F1F5F9`.
+- **Citation Badges & Chips:**
+  - Interactive micro-pills (`#EFF6FF` background, `#2563EB` text, `1px solid #DBEAFE`) inline with text. Hovering invokes a detailed metadata card showing author, publication year, journal title, and direct library call number.
+- **Sidebar Navigation:**
+  - Clean, minimal column featuring categorized history (Today, Previous 7 Days), bookmarked library catalogs (JSTOR, IEEE, University Archive), and an expandable user profile widget at the bottom.
+- **Source Reference Cards:**
+  - Embedded preview units below AI answers featuring paper title, author list, peer-reviewed indicator tag (`#0D9488`), and actionable "Locate in Stacks" or "Download PDF" links.
+- **Form Controls & Radios:**
+  - Focused inputs display a crisp dual-ring effect: `0 0 0 2px #FFFFFF, 0 0 0 4px #2563EB`.

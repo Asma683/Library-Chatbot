@@ -1,0 +1,6 @@
+{
+  "name": "Academic Intelligence",
+  "description": "Scholarly research workspace and university library inquiry assistant with verified inline citations, catalog discovery, and bibliography management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
